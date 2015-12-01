@@ -1,19 +1,21 @@
-////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 //
-// LED-based UI Experiment (MSP-430FR4133)
+// Title:  LED-based UI Experiment (MSP-430FR4133)
 //
-// Brief: this is a fast and simple LED-based User Interface experiment.
-//        
+// Brief:  this is a fast and simple LED-based User Interface experiment, 
+//         using the conveniences of the MSP-430FR4133.
 //
-// UX:    The two on-board push buttons are used to invoke interaction with 
-//        the two LEDs near them. The left button makes the red LED blink
-//        four times, and the right button makes the green LED blink four 
-//        times. Pressing both buttons at the same time causes both LEDs to
-//        blink in a preprogrammed manner.
+// UX:     The two on-board push buttons are used to invoke interaction with 
+//         the two LEDs near them. The left button makes the red LED blink
+//         four times, and the right button makes the green LED blink four 
+//         times. Pressing both buttons at the same time causes both LEDs to
+//         blink in a preprogrammed manner. LEDs make people very happy. What
+//         makes people even happier is LEDs that don't behave in a way that
+//         is easy to guess; something that they won't get used to quickly.
 //
 // Author: Ron Rihoo
 //
-////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 
 // constants (setting pin numbers)
 const int buttonPin1 = PUSH1;
